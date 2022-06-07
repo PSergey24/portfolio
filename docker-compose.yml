@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  web_portfolio:
+    build: modules/web
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./modules/web:/app/modules/web
